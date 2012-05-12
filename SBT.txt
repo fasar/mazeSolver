@@ -1,0 +1,38 @@
+Options pour SBT
+
+Si changement du fichier project/Maze.scala
+ # reload
+
+Création du projet pour IntelliJ Idea
+ # gen-idea
+
+Compilation
+ # project common
+ # compile:compile
+ # test
+
+Pour l'application GUI de resolution de maze
+ # project maze-gui
+ # run /
+
+Pour l'application Console de résolution de maze
+ # project maze-console
+ # run -h
+
+Pour l'application d'extraction de maze à partir d'images
+ # project mazebmp-exctractor
+ # run -h
+
+Les méthodes de SBT pour créer un jar.
+ - Choisir un projet avec :project xxx
+ # assembly:package
+ # assembly:test
+ # assembly:output-path
+ # assembly:clean
+ # assembly:jar-name
+ # assembly:main-class
+ # assembly:full-classpath
+ # assembly:excluded-files
+ # assembly:configuration
+
+
